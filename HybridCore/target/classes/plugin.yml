@@ -1,0 +1,88 @@
+name: HybridCore
+version: 2.0.2-SNAPSHOT_(P-BETA)
+main: me.caledonian.hybridcore.HybridCore
+api-version: 1.13
+prefix: HybridCore
+depend: [PlaceholderAPI]
+authors: [Caledonian]
+description: HybridMC's core survival commands
+website: tk.hybridmc
+commands:
+  serverdebug:
+    description: Debug the server information
+  serverinfo:
+    description: Developer Debug
+  testing:
+    description: General Testing
+  hybridcore:
+    description: View the plugin information
+    aliases: [caledonian, hybridcore, hybridmc]
+  signedit:
+    description: View Pepper's sign edit
+  c:
+    description: Set a player's gamemode to creative
+    aliases: [creative, gmc, [gm c], gm1]
+  a:
+    description: Set a player's gamemode to adventure
+    aliases: [adventure, gma, [gm a], gm2]
+  sp:
+    description: Set a player's gamemode to creative
+    aliases: [spectator, gmsp, [gm s], gm3]
+  s:
+    description: Set a player's gamemode to creative
+    aliases: [survival, gms, [gm s], gm0]
+  feed:
+    description: Fill a player's hunger bar
+    aliases: [eat]
+  heal:
+    description: Heal a player
+  hcrl:
+    description: Reload the config
+    aliases: [hybridcorereload, hybridcorerl]
+  brendan:
+    description: Some fun
+    aliases: [brendandumb]
+  discord:
+    description: View the server discord
+    aliases: [disc, discordlink, links]
+  f:
+    description: Pay your respects
+    aliases: [payrespects, pressf]
+  fly:
+    description: Enable a player's fly
+    aliases: [flight, flying, hfly]
+  nf:
+    description: Prove why dying is bad
+    aliases: [norespects, paidnorespects]
+  bruh:
+    description: Declare a bruh moment
+    aliases: [bruhmoment, declarebruh]
+  sleep:
+    description: Request Sleep
+    aliases: [requestsleep]
+  gg:
+    description: Good game
+    aliases: [goodgame, ggs]
+  ugly:
+    description: Ugly Stuff
+  swamp:
+    description: Shrek
+    aliases: [shrek, outtaswamp]
+  burn:
+    description: Don't ask
+    aliases: [burnketchup]
+  doubt:
+    description: Na m8
+    aliases: [doubtthat]
+  bc:
+    description: Broadcast a message to the server
+    aliases: [broadcast, broadcastmessage, announce, shout, alert]
+  rip:
+    description: Rest in peace
+    aliases: [restinpeace]
+  nick:
+    description: Set your display name
+    aliases: [nickname, nickplayer, displayname, dp]
+  anoy:
+    description: bob
+    aliases: [bob]

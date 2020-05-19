@@ -1,0 +1,41 @@
+# HybridHub configuration file generated using HybridHub v1.0-RELEASE
+# This plugin is still in alpha and may not fully work
+
+# MySQL Database - NOT SUPPORTED
+use-mysql: false
+print-sql: false
+host: ''
+port: '3306'
+database: ''
+username: ''
+password: ''
+
+# Discord
+discord: 'hybridcore.discord'
+discord-link: '&b&lDISCORD: &7Join our server discord! &b&n&o[link]'
+
+# Permissions
+reload: 'hybridcore.reload'
+#
+creative: 'hybridcore.creative'
+creative-others: 'hybridcore.creative.others'
+adventure: 'hybridcore.adventure'
+adventure-others: 'hybridcore.adventure.others'
+spectator: 'hybridcore.spectator'
+spectator-others: 'hybridcore.spectator.others'
+survival: 'hybridcore.creative'
+survival-others: 'hybridcore.survival.others'
+command-bruh: 'hybridcore.bruh'
+burnt-ketchup: 'hybridcore.burnt'
+set-name: 'hybridcore.displayname'
+#
+fly: 'hybridcore.fly'
+fly-others: 'hybridcore.fly.others'
+
+# Core Messages
+prefix: '&8(&9&lHybridCore&8) &7'
+chat-format: '<%player_name%> '
+config-reload: 'Reloading HybridCore configuration.'
+console-deny: 'You must be a player to execute this command'
+player-not-found: 'That player wasn''t found.'
+no-permission: 'You must be an &9Admin &7or higher to execute this command.'
